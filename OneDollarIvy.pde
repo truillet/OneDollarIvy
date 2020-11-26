@@ -1,10 +1,10 @@
 /*
  *  OneDollarIvy -> Demonstration with ivy middleware
- * v. 1.3
+ * v. 1.31
  *   can import/export templates
  * 
- * (c) Ph. Truillet, October 2020
- * Last Revision: 22/10/2020
+ * (c) Ph. Truillet, October-Novembre 2020
+ * Last Revision: 26/11/2020
  * 
  * $1 Dollar Recognizer - http://depts.washington.edu/aimgroup/proj/dollar/
 */
@@ -92,7 +92,7 @@ void draw() {
         s_result = "Template: "+ result.Name + "\nScore: " + String.format("%.2f",result.Score);
         
         try {
-          bus.sendMsg("OneDolarIvy Template=" + result.Name + " Confidence=" + String.format("%.2f",result.Score));
+          bus.sendMsg("OneDollarIvy Template=" + result.Name + " Confidence=" + String.format("%.2f",result.Score));
         }
         catch (IvyException ie) {}
         result=null;
