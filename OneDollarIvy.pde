@@ -3,8 +3,8 @@
  * v. 1.31
  *   can import/export templates
  * 
- * (c) Ph. Truillet, October-Novembre 2020
- * Last Revision: 26/11/2020
+ * (c) Ph. Truillet, October 2020
+ * Last Revision: 13/07/2022
  * 
  * $1 Dollar Recognizer - http://depts.washington.edu/aimgroup/proj/dollar/
 */
